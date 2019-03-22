@@ -1,0 +1,25 @@
+{
+  "name": "typescript-webpack-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephaniesmith/typescript-webpack-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephaniesmith/typescript-webpack-babel/issues"
+  },
+  "homepage": "https://github.com/stephaniesmith/typescript-webpack-babel#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
