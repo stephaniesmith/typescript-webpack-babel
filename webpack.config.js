@@ -17,7 +17,7 @@ module.exports = {
   },
   module: { rules },
   resolve: {
-    extentions: ['.ts', '.tsx', '.js']
+    extensions: ['.ts', '.tsx', '.js']
   },
   devServer: {
     contentBase: './',
