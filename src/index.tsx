@@ -29,6 +29,12 @@ export const App = (): JSX.Element => {
     setTodos(newTodos);
   }
 
+  const removeTodo = (index: number): void => {
+    const newTodos: ITodo[] = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  }
+
   return (
     <>
       <h1>Todo List</h1>
@@ -47,6 +53,7 @@ export const App = (): JSX.Element => {
           <button type="button" onClick={() => completeTodo(i)}>
             {complete ? 'Incomplete' : 'Complete'}
           </button>
+          <button type="button" onClick={() => removeTodo(i)}>Remove</button>
           </>
         ))}
       </section>
